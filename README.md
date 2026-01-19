@@ -1,5 +1,5 @@
 # 明天辞职 (Quitting Tomorrow)
-
+<a href="https://www.producthunt.com/products/quittingtomorrow?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-quittingtomorrow" target="_blank" rel="noopener noreferrer"><img alt="QuittingTomorrow - Today's clicks prepare you for resigning tomorrow. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1065116&amp;theme=light&amp;t=1768843974535"></a>
 一款帮助用户通过情绪宣泄释放职场压力的iOS应用。（用户亦可通过采用跟AI对话的形式，让AI为你录入你的职场状态和心理情绪）
 
 > This is an iOS app called "Quitting Tomorrow." Simply put, the app allows users to release work-related stress daily by expressing their emotions. It features a button with a counter function. The logic is that if a user clicks the button too many times in a day, it indicates a strong desire to quit their job.
