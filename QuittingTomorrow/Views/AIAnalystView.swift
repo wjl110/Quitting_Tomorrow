@@ -209,7 +209,7 @@ struct AnalysisResultView: View {
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(.secondary)
                 Text("\"\(analysis.quote)\"")
-                    .font(.system(size: 18, style: .italic))
+                    .font(.system(size: 18).italic())
                     .foregroundColor(.blue)
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .center)

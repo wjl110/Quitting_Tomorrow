@@ -12,14 +12,12 @@ import Combine
 class AIService: ObservableObject {
     static let shared = AIService()
     
-    private let apiKey: String
+    var apiKey: String {
+        UserDefaults.standard.string(forKey: "deepseek_api_key") ?? ""
+    }
     private let baseURL = "https://api.deepseek.com/v1/chat/completions"
     
-    private init() {
-        // 从配置或环境变量读取API Key
-        // 实际使用时应该从安全的存储中读取
-        self.apiKey = UserDefaults.standard.string(forKey: "deepseek_api_key") ?? ""
-    }
+    private init() {}
     
     /// 设置API Key
     func setAPIKey(_ key: String) {

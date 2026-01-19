@@ -11,6 +11,24 @@
 		A1000003 /* ContentView.swift */ = {isa = PBXBuildFile; fileRef = A1000004 /* ContentView.swift */; };
 		A1000005 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = A1000006 /* Assets.xcassets */; };
 		A1000007 /* Preview Assets.xcassets */ = {isa = PBXBuildFile; fileRef = A1000008 /* Preview Assets.xcassets */; };
+		A1000040 /* PressureRecord.swift */ = {isa = PBXBuildFile; fileRef = A1000030 /* PressureRecord.swift */; };
+		A1000041 /* UserProfile.swift */ = {isa = PBXBuildFile; fileRef = A1000031 /* UserProfile.swift */; };
+		A1000042 /* AIService.swift */ = {isa = PBXBuildFile; fileRef = A1000032 /* AIService.swift */; };
+		A1000043 /* DataManager.swift */ = {isa = PBXBuildFile; fileRef = A1000033 /* DataManager.swift */; };
+		A1000044 /* SettlementService.swift */ = {isa = PBXBuildFile; fileRef = A1000034 /* SettlementService.swift */; };
+		A1000045 /* AIAnalystView.swift */ = {isa = PBXBuildFile; fileRef = A1000035 /* AIAnalystView.swift */; };
+		A1000046 /* CalendarView.swift */ = {isa = PBXBuildFile; fileRef = A1000036 /* CalendarView.swift */; };
+		A1000047 /* ProfileView.swift */ = {isa = PBXBuildFile; fileRef = A1000037 /* ProfileView.swift */; };
+		A1000030 /* PressureRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/PressureRecord.swift"; sourceTree = SOURCE_ROOT; };
+		A1000031 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/UserProfile.swift"; sourceTree = SOURCE_ROOT; };
+		A1000032 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/AIService.swift"; sourceTree = SOURCE_ROOT; };
+		A1000033 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/DataManager.swift"; sourceTree = SOURCE_ROOT; };
+		A1000034 /* SettlementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/SettlementService.swift"; sourceTree = SOURCE_ROOT; };
+		A1000035 /* AIAnalystView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/AIAnalystView.swift"; sourceTree = SOURCE_ROOT; };
+		A1000036 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/CalendarView.swift"; sourceTree = SOURCE_ROOT; };
+		A1000037 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ProfileView.swift"; sourceTree = SOURCE_ROOT; };
+		A1000038 /* VentingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/VentingView.swift"; sourceTree = SOURCE_ROOT; };
+		A1000048 /* VentingView.swift */ = {isa = PBXBuildFile; fileRef = A1000038 /* VentingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +47,9 @@
 				A1000004 /* ContentView.swift */,
 				A1000006 /* Assets.xcassets */,
 				A100000A /* Preview Content */,
+				A1000020 /* Models */,
+				A1000021 /* Services */,
+				A1000022 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +67,33 @@
 				A1000000 /* QuittingTomorrow.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A1000020 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000030 /* PressureRecord.swift */,
+				A1000031 /* UserProfile.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000021 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1000032 /* AIService.swift */,
+				A1000033 /* DataManager.swift */,
+				A1000034 /* SettlementService.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000022 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1000035 /* AIAnalystView.swift */,
+				A1000036 /* CalendarView.swift */,
+				A1000037 /* ProfileView.swift */,
+				A1000038 /* VentingView.swift */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +163,15 @@
 			files = (
 				A1000003 /* ContentView.swift */,
 				A1000001 /* QuittingTomorrowApp.swift */,
+				A1000040 /* PressureRecord.swift */,
+				A1000041 /* UserProfile.swift */,
+				A1000042 /* AIService.swift */,
+				A1000043 /* DataManager.swift */,
+				A1000044 /* SettlementService.swift */,
+				A1000045 /* AIAnalystView.swift */,
+				A1000046 /* CalendarView.swift */,
+				A1000047 /* ProfileView.swift */,
+				A1000048 /* VentingView.swift */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +304,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"QuittingTomorrow/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QuittingTomorrow/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -276,10 +333,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"QuittingTomorrow/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QuittingTomorrow/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
