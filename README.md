@@ -1,6 +1,6 @@
 # 明天辞职 (Quitting Tomorrow)
 
-一款帮助用户通过情绪宣泄释放职场压力的iOS应用。
+一款帮助用户通过情绪宣泄释放职场压力的iOS应用。（用户亦可通过采用跟AI对话的形式，让AI为你录入你的职场状态和心理情绪）
 
 > This is an iOS app called "Quitting Tomorrow." Simply put, the app allows users to release work-related stress daily by expressing their emotions. It features a button with a counter function. The logic is that if a user clicks the button too many times in a day, it indicates a strong desire to quit their job.
 
