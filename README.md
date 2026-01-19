@@ -1,5 +1,5 @@
 # 明天辞职 (Quitting Tomorrow)
-<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/04927bc0-4015-41a1-b556-57dde6d0c28f" />
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/04927bc0-4015-41a1-b556-57dde6d0c28f" />
 
 <a href="https://www.producthunt.com/products/quittingtomorrow?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-quittingtomorrow" target="_blank" rel="noopener noreferrer"><img alt="QuittingTomorrow - Today's clicks prepare you for resigning tomorrow. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1065116&amp;theme=light&amp;t=1768843974535"></a>
 
