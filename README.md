@@ -29,7 +29,7 @@
 ### 4. AI智能分析
 接入DeepSeek的API，AI功能包括：
 - 帮用户分析用户的心理状态
-- 分析辞职顶点心态的度
+- 分析辞职冲动的强度
 - 通过AI分析，最终实现原因采集
 
 ---
@@ -65,5 +65,5 @@ On the second page, users can:
 ### 4. AI-Powered Analysis
 Integrated with DeepSeek API, AI features include:
 - Analyzing user's psychological state
-- Analyzing peak quitting mentality levels
+- Analyzing the intensity of quitting impulses
 - Through AI analysis, ultimately achieving reason collection and insights
